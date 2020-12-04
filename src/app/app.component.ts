@@ -15,14 +15,14 @@ export class AppComponent {
 
   reviewBooking() {
     let message: string =
-      this.selectedOption === 'one-way flight'
+      this.selectedOption === this.bookingOptions[0]
         ? `You have booked a ${this.selectedOption} for ${this.oneWayDate}`
         : `You have booked a ${this.selectedOption} for ${this.oneWayDate} to ${this.returnDate}`;
     alert(message);
   }
 
   onChange(value) {
-    value === 'one-way flight'
+    value === this.bookingOptions[0]
       ? (this.disableReturn = true)
       : (this.disableReturn = false);
   }
