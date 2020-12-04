@@ -1,6 +1,6 @@
 # Hugo Test #3
 
-## DEMO -->  [Counter](https://affectionate-shannon-e30b03.netlify.app/)
+## DEMO -->  [Flight Booker](https://affectionate-shannon-e30b03.netlify.app/)
 
 This is the task #3 of the "7GUIs: A GUI Programming Benchmark" wich is the Flight Booker
 
